@@ -1,7 +1,6 @@
 import unittest
 import math
 import fibonacci
-import fact
 import pytest
 
 class TestFib(unittest.TestCase):
@@ -16,16 +15,16 @@ class TestFib(unittest.TestCase):
         self.assertEqual(fibonacci_index(21), 9);
 
 
-class TestFact(unittest.TestCase):
+class TestFactorial(unittest.TestCase):
 
-    def test_fact(self):
-        self.assertEqual(fact(6), 720);
+    def test_factorial(self):
+        self.assertEqual(factorial(6), 720);
 
-    def test_fact(self):
-        self.assertEqual(fact(5), 120);
+    def test_factorial(self):
+        self.assertEqual(factorial(5), 120);
 
-    def test_fact(self):
-        self.assertEqual(fact(0), 1);
+    def test_factorial(self):
+        self.assertEqual(factorial(0), 1);
 
 
 

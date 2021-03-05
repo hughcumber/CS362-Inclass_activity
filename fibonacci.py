@@ -18,7 +18,7 @@ def fibonacci_index(n):
     return i;
 
 
-def fact(n):
+def factorial(n):
 
     if(n == 0):
         return 1;
